@@ -1,0 +1,4 @@
+node_modules
+dubug.log
+yarn.lock
+yarn-error.log

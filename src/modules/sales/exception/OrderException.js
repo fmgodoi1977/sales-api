@@ -1,0 +1,13 @@
+class OrderException extends Error {
+
+    constructor(status, message) {
+        super(message);
+        this.status = status;
+        this.message = message;
+        this.name = constructor.name;
+        Error.captureStackTrace(this.constructor);
+    }
+
+}
+
+export default OrderException;
